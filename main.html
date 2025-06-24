@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мега-Босс: Одна Жизнь</title>
+    <title>Bullet aether</title>
     <style>
         body {
             margin: 0;
@@ -161,12 +161,12 @@
                 // Проверяем условия окончания игры
                 if (this.player.hp <= 0) {
                     this.gameState = 'gameOver';
-                    this.showWarning('ПОРАЖЕНИЕ! F5 для перезапуска');
+                    this.showWarning('Lose! F5 for restart');
                 }
                 
                 if (this.boss.hp <= 0) {
                     this.gameState = 'victory';
-                    this.showWarning('ПОБЕДА! Мега-босс повержен!');
+                    this.showWarning('Victory!');
                 }
             }
             
