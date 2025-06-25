@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullet aether</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="hud">
+            <div>HP: <span id="playerHp">1</span></div>
+            <div>Stamina: <span id="playerStamina">3</span></div>
+            <div>Boss phase: <span id="bossPhase">1</span></div>
+            <div>Boss HP : <span id="bossHp">30</span></div>
+        </div>
+        <div id="instructions">
+            WASD/Arrows - movement | SPACE - attack | SHIFT - dash | Made by PurpleSmileGuy
+        </div>
+        <div id="warning" class="warning" style="display: none;"></div>
+        <div id="phaseIndicator" class="phase-indicator" style="display: none;"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
