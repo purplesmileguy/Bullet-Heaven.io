@@ -1,4 +1,3 @@
-import Boss from './boss.js';
 
 class Game {
     constructor() {
