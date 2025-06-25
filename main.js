@@ -1,3 +1,5 @@
+import Boss from './boss.js';
+
 class Game {
     constructor() {
         this.canvas = document.getElementById('gameCanvas');

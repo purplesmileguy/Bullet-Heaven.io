@@ -630,4 +630,4 @@ class Boss {
         ctx.shadowBlur = 0;
     }
 }
-export { Boss };
+export default Boss;
