@@ -1157,3 +1157,4 @@ class Particle {
 }
 // Запуск игры
 let game = new Game();
+let musicPlayer = new MusicPlayer(); // Add this line
