@@ -376,15 +376,15 @@
                 this.attackTimer++;
                 
                 // Переход между фазами
-                if (this.hp <= 20 && this.phase === 1) {
+                if (this.hp <= 40 && this.phase === 1) {
                     this.phase = 2;
-                    game.showPhaseIndicator('ФАЗА 2: ХАОС!');
+                    game.showPhaseIndicator('PHASE 2: RAGE!');
                     this.phaseTransitionTimer = 120;
                 }
                 
-                if (this.hp <= 10 && this.phase === 2) {
+                if (this.hp <= 20 && this.phase === 2) {
                     this.phase = 3;
-                    game.showPhaseIndicator('ФАЗА 3: ЯРОСТЬ!');
+                    game.showPhaseIndicator('PHASE 3: LUDICRIOUS!');
                     this.phaseTransitionTimer = 120;
                 }
                 
